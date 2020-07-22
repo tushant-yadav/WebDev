@@ -1,0 +1,128 @@
+
+@media screen and (min-width: 300px){
+h1{
+	color: blue;
+}
+img{
+	display: none;
+}
+}
+
+@media screen and (min-width:800px){
+header{
+	background-color: #b8b0b0;
+	font-size: 100%;
+	padding: 10px;
+		background-image: url(../images/flywheel.jpg);
+
+	/*background-image: url(../images/flywheel.jpg);*/
+}
+h1{
+	font-family:  "Times New Roman",serif;
+	color: #ffffff;
+	text-align: center;
+}
+
+nav a{
+	color: #000000;
+	display: inline-block;
+	background-color: #ffffff85;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	width: 15%;
+
+}
+
+a.active{
+	background-color: #ffffffff;
+}
+nav{
+	text-align: center;
+}
+
+img{
+	border:1px solid #fffffff;
+	margin:15px;
+	display: block;
+	width: 220px;
+}
+.left{
+	display: inline-block;
+	background-color: #767613;
+	float: left;
+	width: 250px;
+	height: 100vh;
+}
+.right{
+	display: inline-block;
+	width: 78%;
+	padding: 10px;
+}
+body{
+	margin:2.5%;
+	padding: 2.5%;
+}
+h2{
+	color: #000000;
+	font-size: 150%;
+}
+table{
+	border-spacing: 2px;
+	margin-left: 10%;
+	font-family: Arial,Times;
+	width: 80%;
+	font-size: 70%;
+	border-radius: 0 0 2px 2px;
+
+}
+tr{
+	text-align: center;
+	opacity: 0.8;
+}
+tr:hover{
+	opacity: 1;
+}
+th{	text-shadow: 1px 1px #ff0000;
+	opacity: 1;
+	background-color: #919e4d;	
+	padding: 10px;
+	color: #ffffff;
+	border: 1px solid #c2de89;
+	border-bottom: 3px solid #c2de89;
+	background: linear-gradient(#919e4d,#c2de89);
+}
+td{	
+	/*text-shadow: 1px 1px #ff0000;*/
+	padding: 10px; 
+	color: #52564c;
+	background-color: #e4f5d4;
+}
+tr th:first-child{
+	border-radius: 2px 0 0 0;
+	text-align: left;
+}
+tr th:last-child{
+	border-radius: 0 2px 0 0;
+}
+tr:last-child>td:first-child{
+	border-radius: 0 0 0 2px;	
+}
+tr:last-child>td:last-child{
+	border-radius: 0 0 2px 0;	
+}
+
+
+tr td:first-child{
+	text-align: left;
+}
+tr:last-child{
+	border-radius: 0 0 15px 15px;
+}
+}
+@media print{
+	body{
+		display: none;
+	}
+}
